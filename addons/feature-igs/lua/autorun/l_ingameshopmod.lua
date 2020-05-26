@@ -1,0 +1,1 @@
+if CLIENT or file.Exists("igs/launcher.lua","LUA") then return end

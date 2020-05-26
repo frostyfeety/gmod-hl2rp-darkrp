@@ -1,0 +1,5 @@
+IGS("₮50.000", "50k_deneg", 50):SetDarkRPMoney(50000)
+IGS("₮100.000", "100k_deneg", 100):SetDarkRPMoney(100000)
+IGS("₮250.000", "250k_deneg", 225):SetDarkRPMoney(250000)
+IGS("₮500.000", "500k_deneg", 450):SetDarkRPMoney(500000)
+IGS("₮1.000.000", "100k_deneg", 900):SetDarkRPMoney(1000000)

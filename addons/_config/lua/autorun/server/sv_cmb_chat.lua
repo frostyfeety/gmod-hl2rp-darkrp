@@ -1,0 +1,134 @@
+local folder = "npc/metropolice/vo/"
+
+local sounds = {}
+sounds["Код 1"] = {folder .. "sacrificecode1maintaincp.wav"}
+sounds["Код 2"] = {folder .. "allunitscode2.wav"}
+sounds["Код 3"] = {folder .. "allunitsrespondcode3.wav"}
+sounds["Код 7"] = {folder .. "code7.wav"}
+sounds["Код 100"] = {folder .. "clearandcode100.wav", folder .. "code100.wav"}
+sounds["Код 505"] = {folder .. "subjectis505.wav"}
+sounds["10-0"] = {folder .. "tenzerovisceratorishunting.wav"}
+sounds["10-2"] = {folder .. "ten2.wav"}
+sounds["10-4"] = {folder .. "ten4.wav"}
+sounds["10-8"] = {folder .. "ten8standingby.wav", folder .. "unitis10-8standingby.wav", folder .. "unitisonduty10-8.wav"}
+sounds["10-14"] = {folder .. "holdingon10-14duty.wav"}
+sounds["10-15"] = {folder .. "preparefor1015.wav"}
+sounds["10-20"] = {folder .. "gothimagainsuspect10-20at.wav"}
+sounds["10-25"] = {folder .. "unitreportinwith10-25suspect.wav"}
+sounds["10-30"] = {folder .. "ihave10-30my10-20responding.wav"}
+sounds["10-65"] = {folder .. "unitis10-65.wav"}
+sounds["10-78"] = {folder .. "dispatchineed10-78.wav"}
+sounds["10-91d"] = {folder .. "tag10-91d.wav"}
+sounds["10-97"] = {folder .. "ten97.wav", folder .. "ten97suspectisgoa.wav"}
+sounds["10-99"] = {folder .. "officerdowniam10-99.wav"}
+sounds["10-103"] = {folder .. "investigating10-103.wav"}
+sounds["10-103m"] = {folder .. "loyaltycheckfailure.wav"}
+sounds["10-107"] = {folder .. "gota10-107sendairwatch.wav"}
+sounds["10-108"] = {folder .. "is10-108.wav", folder .. "wehavea10-108.wav"}
+sounds["11-44"] = {folder .. "get11-44inboundcleaningup.wav"}
+sounds["11-99"] = {folder .. "11-99officerneedsassistance.wav"}
+sounds["63"] = {folder .. "criminaltrespass63.wav"}
+sounds["145b"] = {folder .. "is415b.wav"}
+sounds["148"] = {folder .. "hesgone148.wav"}
+sounds["408"] = {folder .. "ivegot408hereatlocation.wav"}
+sounds["603"] = {folder .. "unlawfulentry603.wav"}
+
+sounds["Вижу его"] = {folder .. "acquiringonvisual.wav"}
+sounds["Так точно"] = {folder .. "affirmative.wav", folder .. "affirmative2.wav"}
+sounds["Порядок, можешь идти"] = {folder .. "allrightyoucango.wav"}
+sounds["Прикройте меня, я отхожу"] = {folder .. "backmeupimout.wav"}
+sounds["Гражданин"] = {folder .. "citizen.wav"}
+sounds["Прикройте меня, я захожу"] = {folder .. "covermegoingin.wav"}
+sounds["Приговор приведен в исполнение"] = {folder .. "finalverdictadministered.wav"}
+sounds["Последнее предупреждение"] = {folder .. "finalwarning.wav"}
+sounds["Первое предупреждение"] = {folder .. "firstwarningmove.wav"}
+sounds["Есть один сообщник"] = {folder .. "gotoneaccomplicehere.wav"}
+sounds["Здесь подозреваемый 1"] = {folder .. "gotsuspect1here.wav"}
+sounds["Граната"] = {folder .. "grenade.wav"}
+sounds["Он убегает"] = {folder .. "hesrunning.wav"}
+sounds["Вот он"] = {folder .. "hesupthere.wav"}
+sounds["Я сказал отойти"] = {folder .. "isaidmovealong.wav"}
+sounds["Есть попадание"] = {folder .. "ispassive.wav"}
+sounds["Отряд ГО, доложите статус"] = {folder .. "localcptreportstatus.wav"}
+sounds["Ищешь неприятностей?"] = {folder .. "lookingfortrouble.wav"}
+sounds["Помощь нужна?"] = {folder .. "needanyhelpwiththisone.wav"}
+sounds["Офицеру нужна помощь"] = {folder .. "officerneedshelp.wav"}
+sounds["Офицер под огнём, ухожу в укрытие"] = {folder .. "officerunderfiretakingcover.wav"}
+sounds["Возможно нарушитель порядка 3 уровня"] = {folder .. "possiblelevel3civilprivacyviolator.wav"}
+sounds["Здесь нарушитель 2"] = {folder .. "priority2anticitizenhere.wav"}
+sounds["Преступление пресечено"] = {folder .. "protectioncomplete.wav"}
+sounds["Отряд на месте, докладываю"] = {folder .. "ptatlocationreport.wav"}
+sounds["Поиск подозреваемых, без изменений"] = {folder .. "searchingforsuspect.wav"}
+sounds["Второе предупреждение"] = {folder .. "secondwarning.wav"}
+sounds["Чёрт"] = {folder .. "shit.wav"}
+sounds["Перестрелка, нарушитель с оружием"] = {folder .. "shotsfiredhostilemalignants.wav"}
+sounds["Угроза обществу"] = {folder .. "sociocide.wav"}
+sounds["Объект"] = {folder .. "subject.wav"}
+sounds["Объект тяжело ранен"] = {folder .. "suspectisbleeding.wav"}
+sounds["В зоне объектов нет"] = {folder .. "suspectlocationunknown.wav"}
+sounds["Вон он"] = {folder .. "thereheis.wav"}
+sounds["Это второе предупреждение"] = {folder .. "thisisyoursecondwarning.wav"}
+sounds["Объект не обнаружен"] = {folder .. "utlthatsuspect.wav"}
+sounds["Здесь всё в порядке"] = {folder .. "wearesociostablethislocation.wav"}
+sounds["Хочешь в участок?"] = {folder .. "youwantamalcomplianceverdict.wav"}
+
+sounds["На точке"] = {folder .. "atcheckpoint.wav"}
+sounds["Полный порядок"] = {folder .. "blockisholdingcohesive.wav"}
+sounds["Понял"] = {folder .. "copy.wav"}
+sounds["На помощь"] = {folder .. "help.wav"}
+sounds["Продолжаю поиск"] = {folder .. "hiding02.wav"}
+sounds["На позиции"] = {folder .. "inposition.wav", folder .. "inpositiononeready.wav"}
+sounds["Приближаюсь к подозреваемому"] = {folder .. "isclosingonsuspect.wav"}
+sounds["Убит"] = {folder .. "isdown.wav"}
+sounds["Готов"] = {folder .. "isgo.wav"}
+sounds["Выдвигаюсь"] = {folder .. "ismovingin.wav"}
+sounds["Готов начинать"] = {folder .. "isreadytogo.wav"}
+sounds["Выдаю предписание о неповиновении"] = {folder .. "issuingmalcompliantcitation.wav"}
+sounds["Местонахождение"] = {folder .. "location.wav"}
+sounds["Выхожу из боя"] = {folder .. "movingtocover.wav"}
+sounds["Восстанавливаю порядок"] = {folder .. "pacifying.wav"}
+sounds["Патруль"] = {folder .. "patrol.wav"}
+sounds["К бою готов"] = {folder .. "readytojudge.wav"}
+sounds["Вас понял"] = {folder .. "rodgerthat.wav"}
+sounds["Боезапас на исходе, иду в укрытие"] = {folder .. "runninglowonverdicts.wav"}
+sounds["Продолжаю поиск"] = {folder .. "sweepingforsuspect.wav"}
+sounds["Иду в укрытие"] = {folder .. "takecover.wav"}
+
+sounds["Выполнять"] = {folder .. "administer.wav"}
+sounds["Всем на точку сбора"] = {folder .. "allunitscloseonsuspect.wav"}
+sounds["Всем выдвигаться"] = {folder .. "allunitsmovein.wav"}
+sounds["Применить"] = {folder .. "apply.wav"}
+sounds["Назад"] = {folder .. "backup.wav"}
+sounds["Документ"] = {folder .. "document.wav"}
+sounds["Стоять"] = {folder .. "dontmove.wav"}
+sounds["Проверить"] = {folder .. "examine.wav"}
+sounds["Убить"] = {folder .. "expired.wav"}
+sounds["Огонь по укрытию"] = {folder .. "firetodislocateinterpose.wav", folder .. "firingtoexposetarget.wav"}
+sounds["Ложись"] = {folder .. "getdown.wav"}
+sounds["Убирайся вон"] = {folder .. "getoutofhere.wav"}
+sounds["Задержать"] = {folder .. "hiding03.wav"}
+sounds["Изолировать"] = {folder .. "hiding05.wav"}
+sounds["Стоять"] = {folder .. "holdit.wav"}
+sounds["Стоять на месте"] = {folder .. "holditrightthere.wav"}
+sounds["Оставаться на позиции"] = {folder .. "holdthisposition.wav"}
+sounds["Расследовать"] = {folder .. "investigate.wav"}
+sounds["Изолировать"] = {folder .. "isolate.wav"}
+sounds["Всем оставаться на месте"] = {folder .. "lockyourposition.wav"}
+sounds["Двигайся"] = {folder .. "move.wav", folder .. "moveit.wav", folder .. "moveit2.wav"}
+sounds["Проходи"] = {folder .. "movealong.wav", folder .. "movealong3.wav"}
+sounds["Назад, немедленно"] = {folder .. "movebackrightnow.wav"}
+sounds["А теперь убирайся"] = {folder .. "nowgetoutofhere.wav"}
+sounds["Отряд, вперёд"] = {folder .. "ptgoagain.wav"}
+sounds["Стерилизовать"] = {folder .. "sterilize.wav"}
+sounds["Прекратить"] = {folder .. "suspend.wav"}
+sounds["Осторожно"] = {folder .. "watchit.wav"}
+
+hook.Add("PostPlayerSay", "rp_combine_chat_sounds", function(player, txt)
+	if IsValid(player) && player:isMPF() then
+		if player.SoundDelay and player.SoundDelay > CurTime() then return end
+		local sound = sounds[txt]
+		if not sound then return end
+		player:EmitSound(sound[math.random(#sound)], 80, 80)
+		player.SoundDelay = CurTime() + 3
+	end
+end)
